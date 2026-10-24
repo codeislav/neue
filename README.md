@@ -10,7 +10,7 @@ A Chrome extension that redesigns the YouTube interface in a glass style: the he
 - Light and dark theme, following YouTube's theme
 - Interface in 17 languages, following YouTube's language
 
-Chrome Web Store: coming soon.
+**[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/pbhodocjfoobobjkkenimpibhbedjkpb)**
 
 [Privacy policy](privacy-policy.md)
 
