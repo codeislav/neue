@@ -7,11 +7,7 @@
   A Chrome extension: free, no ads, no analytics, no servers.
 </p>
 
-<p align="center">
-  <a href="https://chromewebstore.google.com/detail/pbhodocjfoobobjkkenimpibhbedjkpb"><b>Install from the Chrome Web Store</b></a>
-  &nbsp;·&nbsp;
-  <a href="README.ru.md">Русская версия</a>
-</p>
+**[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/pbhodocjfoobobjkkenimpibhbedjkpb)** · [Русская версия](README.ru.md)
 
 ---
 

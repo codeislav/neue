@@ -7,11 +7,7 @@
   Расширение для Chrome: бесплатно, без рекламы, аналитики и серверов.
 </p>
 
-<p align="center">
-  <a href="https://chromewebstore.google.com/detail/pbhodocjfoobobjkkenimpibhbedjkpb"><b>Установить из Chrome Web Store</b></a>
-  &nbsp;·&nbsp;
-  <a href="README.md">English</a>
-</p>
+**[Установить из Chrome Web Store](https://chromewebstore.google.com/detail/pbhodocjfoobobjkkenimpibhbedjkpb)** · [English](README.md)
 
 ---
 
