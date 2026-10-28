@@ -11,14 +11,26 @@
 
 ---
 
-Neue changes how YouTube looks and works on the desktop site: a floating glass header, a video grid with as many videos per row as you like, videos that open in a pop-up player over the page, comments over a fullscreen video, and channel pages that use the whole window. Everything else stays YouTube: your account, subscriptions, recommendations and history work as before.
+Neue changes how YouTube looks and works on the desktop site: a floating glass header, a video grid with as many videos per row as you like, videos that open in a pop-up player over the page, with their chapters and comments, comments over a fullscreen video, and channel pages that use the whole window. Everything else stays YouTube: your account, subscriptions, recommendations and history work as before.
 
 Settings are in Chrome's side panel, next to YouTube, and apply at once in every open tab.
 
 ![The YouTube home page with Neue](images/1-home.png)
 
+<a id="whats-new"></a>
+
+## What's new in 1.1
+
+- **Chapters in the pop-up player:** on the timeline, as on the video's page. The chapter's title next to the time opens the list of chapters above the timeline, which stays in view: the chapter playing is marked, a click jumps to a chapter, and each one can be shared.
+- **Comments in the pop-up player:** the wheel down or V raises the comments card over the video, as in fullscreen. A time in a comment plays the video from there.
+- **The tab is titled by the video** while the pop-up player shows it, as on the video's page.
+- **Wide videos** (21:9 and wider) open in their own shape at once, as the narrow ones already did.
+- **Hide Shorts** also clears the Shorts from a channel's "For you" shelf, while a channel's Shorts tab and the search's Shorts filter keep showing them.
+- **Share** in the pop-up player is dark in both themes; a chapter's share opens within the card.
+
 ## Contents
 
+- [What's new in 1.1](#whats-new)
 - [Header](#header)
 - [☰ menu](#menu)
 - [Home page](#home-page)
@@ -60,7 +72,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 - **Videos per row: 1 to 12**, applied at once, without reloading. The number is a maximum: a narrow window shows fewer, so the cards don't get too small.
 - **The topic bar** ("All", "Music", "Gaming"…) is hidden. Turned back on, it becomes glass pills that scroll away with the page.
-- **Shorts shelves** can be hidden with one switch — on the home page, in search and in recommendations.
+- **Shorts shelves** can be hidden with one switch — on the home page, in search, in recommendations and in a channel's "For you" shelf. Where you asked for Shorts, they stay: a channel's Shorts tab and the search's Shorts filter.
 - **The topics shelf** (a shelf of topic buttons with a few videos) can be hidden too, whatever YouTube's language.
 - **A calm splash screen** with the logo covers the page while YouTube rebuilds it on a full load, instead of the page jumping into place. It can be turned off.
 
@@ -69,7 +81,10 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 ![A video in the pop-up player over the home page](images/2-quick-view.png)
 
 - **A click on a video** on the home page or a channel page opens it in a pop-up player over the page. The page stays where it was.
-- **The player takes the video's shape** from the start: wide, vertical or square, no jump from 16:9.
+- **The player takes the video's shape** from the start: 16:9, 21:9 and wider, 4:3, square or vertical, no jump from 16:9.
+- **Chapters** are on the timeline, as on the video's page. The chapter's title next to the time opens the list of chapters above the timeline: the chapter playing is marked, a click jumps to a chapter, and its share opens within the card.
+- **Comments over the video:** the wheel down or V raises them in a card, as in fullscreen; the wheel up at the top of the list, V, Esc or a click beside the card lowers it. A time in a comment plays the video from there.
+- **The tab's title** is the video's while it plays in the player, and the page's again once it closes.
 - **Under the video:** the channel, Subscribe, like, share, save and ⋯ — YouTube's own buttons, working with your account.
 - **↗ opens the video's page** from the same second, in one movement: the picture moves into the page's player, sound and picture stay together. Middle click or Ctrl+click on ↗ opens it in a new tab; on a video card they work as usual on YouTube.
 - **↗ and ×** look and hide like the player's own round buttons.
@@ -150,8 +165,8 @@ The **More** page has the hotkeys, export of all settings to a JSON file, import
 
 | Key | Action |
 |---|---|
-| <kbd>V</kbd> | Open or close the comments in fullscreen |
-| Wheel ↓ | Open the comments in fullscreen |
+| <kbd>V</kbd> | Open or close the comments (fullscreen and pop-up player) |
+| Wheel ↓ | Open the comments (fullscreen and pop-up player) |
 | <kbd>E</kbd> | Save to a playlist (pop-up player and the video's page) |
 | <kbd>F</kbd> | Pop-up player in full screen |
 | <kbd>Esc</kbd> | Close the pop-up player |
