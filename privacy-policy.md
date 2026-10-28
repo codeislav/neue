@@ -1,6 +1,6 @@
 # Neue — Privacy Policy
 
-*Effective October 23, 2026*
+*Effective October 28, 2026*
 
 [Русская версия ниже](#ru)
 
@@ -22,7 +22,7 @@ The extension keeps only what it needs to work, in your browser:
 
 The extension connects only to YouTube, the site you are already on:
 
-- When you open a video in the pop-up player, it loads that video's YouTube page, with your YouTube cookies, as opening the page yourself would. This shows the video's channel, the Subscribe, like and save buttons with your own state.
+- When you open a video in the pop-up player, it loads that video's YouTube page, with your YouTube cookies, as opening the page yourself would. This shows the video's channel, the Subscribe, like and save buttons with your own state, and the video's chapters. When you open its comments, YouTube's own comments panel loads them from YouTube, as on the video's page.
 - When the pointer rests on a video on the home page or a channel page, or when you open it, it asks YouTube's oEmbed service (youtube.com/oembed) for the video's size, so that the pop-up player opens in the video's shape.
 - To find a channel's welcome video, it may load the channel's YouTube page without your cookies.
 - It shows video thumbnails from YouTube's image server (i.ytimg.com).
@@ -61,7 +61,7 @@ Neue is an independent project and is not affiliated with or endorsed by YouTube
 
 # Neue — Политика конфиденциальности
 
-*Действует с 23 октября 2026 года*
+*Действует с 28 октября 2026 года*
 
 Neue — расширение для браузера, которое меняет интерфейс сайта YouTube (www.youtube.com) в вашем браузере. Оно не собирает, не продаёт и не передаёт ваши персональные данные. У него нет своих серверов, аналитики, рекламы и слежки.
 
@@ -81,7 +81,7 @@ Neue — расширение для браузера, которое меняе
 
 Расширение обращается только к YouTube — сайту, на котором вы и так находитесь:
 
-- Когда вы открываете видео во всплывающем плеере, оно загружает страницу этого видео на YouTube с вашими куками YouTube — так же, как если бы вы открыли её сами. Так под видео появляются канал, кнопки «Подписаться», лайка и «Сохранить» в вашем состоянии.
+- Когда вы открываете видео во всплывающем плеере, оно загружает страницу этого видео на YouTube с вашими куками YouTube — так же, как если бы вы открыли её сами. Так под видео появляются канал, кнопки «Подписаться», лайка и «Сохранить» в вашем состоянии, а на шкале — главы видео. Когда вы открываете комментарии, их загружает с YouTube собственная панель комментариев YouTube — так же, как на странице видео.
 - Когда курсор задерживается на видео на главной или на странице канала или вы его открываете, оно спрашивает у сервиса oEmbed YouTube (youtube.com/oembed) размер видео, чтобы всплывающий плеер открылся в форме ролика.
 - Чтобы найти приветственное видео канала, оно может загрузить страницу канала на YouTube без ваших кук.
 - Превью видео показываются с сервера картинок YouTube (i.ytimg.com).
