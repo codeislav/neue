@@ -1,6 +1,6 @@
 # Neue — Privacy Policy
 
-*Effective October 28, 2026*
+*Effective November 3, 2026*
 
 [Русская версия ниже](#ru)
 
@@ -15,7 +15,11 @@ The extension keeps only what it needs to work, in your browser:
 - **On www.youtube.com, in the site's local storage:**
   - the link to your own channel, together with the address of your account picture to tell which account it belongs to, for the "My channel" button;
   - which video each channel shows as its welcome video (video IDs, for up to 100 channels), for the "Welcome" button;
-  - whether the loading screen is switched off, and whether YouTube is in its light or dark theme, so the loading screen shows the right colours from its first frame.
+  - whether the loading screen is on, and whether YouTube is in its light or dark theme, so the loading screen shows the right colours from its first frame;
+  - the margin from the screen edge (a copy of that setting), so pages are laid out with it from their first frame;
+  - where and how big the player was on a video's page, for each window size, video shape and margin, so that a video's page opened again shows its player in place from the first frame;
+  - the shapes of YouTube's own icons (on video cards, under a video, in comments, in search and on playlist pages), so they are drawn from the first frame instead of appearing later;
+  - the width of the header's buttons on the right, so the header keeps their place until YouTube draws them.
 - **In the settings panel's own storage**, the settings page opened last and the theme last seen, so the panel opens in it at once.
 
 ## Network requests
@@ -26,6 +30,7 @@ The extension connects only to YouTube, the site you are already on:
 - When the pointer rests on a video on the home page or a channel page, or when you open it, it asks YouTube's oEmbed service (youtube.com/oembed) for the video's size, so that the pop-up player opens in the video's shape.
 - To find a channel's welcome video, it may load the channel's YouTube page without your cookies.
 - It shows video thumbnails from YouTube's image server (i.ytimg.com).
+- While you scroll the feed or the comments, it lets YouTube's own page load the next videos, comments and their pictures a little ahead of where you are — from YouTube, as the page would anyway once you scroll there.
 
 Nothing is sent to the developer or to anyone else.
 
@@ -61,7 +66,7 @@ Neue is an independent project and is not affiliated with or endorsed by YouTube
 
 # Neue — Политика конфиденциальности
 
-*Действует с 28 октября 2026 года*
+*Действует с 3 ноября 2026 года*
 
 Neue — расширение для браузера, которое меняет интерфейс сайта YouTube (www.youtube.com) в вашем браузере. Оно не собирает, не продаёт и не передаёт ваши персональные данные. У него нет своих серверов, аналитики, рекламы и слежки.
 
@@ -74,7 +79,11 @@ Neue — расширение для браузера, которое меняе
 - **На www.youtube.com, в локальном хранилище сайта:**
   - ссылка на ваш канал вместе с адресом картинки аккаунта, чтобы понять, к какому аккаунту она относится, — для кнопки «Мой канал»;
   - какое видео каждый канал показывает в приветствии (идентификаторы видео, не больше 100 каналов) — для кнопки «Приветствие»;
-  - выключена ли заставка и какая тема у YouTube, светлая или тёмная, — чтобы заставка была нужного цвета с первого кадра.
+  - включена ли заставка и какая тема у YouTube, светлая или тёмная, — чтобы заставка была нужного цвета с первого кадра;
+  - отступ от края экрана (копия этой настройки) — чтобы страницы раскладывались с ним с первого кадра;
+  - где и какого размера был плеер на странице видео — для каждого размера окна, формы видео и отступа, — чтобы при повторном открытии страницы видео плеер стоял на месте с первого кадра;
+  - формы значков самого YouTube (на карточках видео, под видео, в комментариях, в поиске и на страницах плейлистов) — чтобы рисовать их с первого кадра, а не ждать, пока они догрузятся;
+  - ширина кнопок справа в шапке — чтобы шапка держала для них место, пока YouTube их не нарисует.
 - **В хранилище самой панели настроек** — какая страница настроек была открыта последней и какая тема была последней, чтобы панель сразу открывалась в ней.
 
 ## Сетевые запросы
@@ -85,6 +94,7 @@ Neue — расширение для браузера, которое меняе
 - Когда курсор задерживается на видео на главной или на странице канала или вы его открываете, оно спрашивает у сервиса oEmbed YouTube (youtube.com/oembed) размер видео, чтобы всплывающий плеер открылся в форме ролика.
 - Чтобы найти приветственное видео канала, оно может загрузить страницу канала на YouTube без ваших кук.
 - Превью видео показываются с сервера картинок YouTube (i.ytimg.com).
+- Когда вы листаете ленту или комментарии, оно позволяет странице YouTube загрузить следующие видео, комментарии и их картинки чуть заранее — с YouTube, как страница и так сделала бы, когда вы до них долистаете.
 
 Разработчику и кому-либо ещё ничего не отправляется.
 
