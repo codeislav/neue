@@ -11,7 +11,7 @@
 
 ---
 
-Neue changes how YouTube looks and works on the desktop site: a floating glass header, a video grid with as many videos per row as you like, videos that open in a pop-up player over the page, with their chapters and comments, comments over a fullscreen video, and channel pages that use the whole window. Everything else stays YouTube: your account, subscriptions, recommendations and history work as before.
+Neue changes how YouTube looks and works: a floating glass header, a video grid with as many videos per row as you like, videos that open in a pop-up player over the page, with their chapters and comments, comments over a fullscreen video, channel pages that use the whole window — and pages that appear whole and move smoothly, with no jumps. Everything else stays YouTube: your account, subscriptions, recommendations and history work as before.
 
 Settings are in Chrome's side panel, next to YouTube, and apply at once in every open tab.
 
@@ -19,7 +19,30 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 <a id="whats-new"></a>
 
-## What's new in 1.1
+## What's new in 1.2 and 1.2.1
+
+### 1.2.1
+
+- **Comment threads open and close smoothly.** Opened the first time, the "N replies" row waits while the replies load — no spinner, no empty space — then they open whole, the thread's line drawn down with them. A click on the line folds them back up. The thread lines are Neue's own. Fixed: replies were sometimes shown twice.
+- **A new loading line at the top:** smooth, it never stalls and reaches the end just as the page is shown — also when the home feed is refreshed from the logo.
+- **Margins from the screen edge** (Appearance): 24 to 240 px, on every page.
+- **Neue's own thin scrollbar** over the page: the window's no longer takes width, so the page doesn't shift when it comes or goes.
+- **A video page opened directly** (a reload, a link): the player has the video's shape (21:9, 4:3, vertical) and its place from the first frame, in theater mode too.
+- **Home from a video page** no longer flashes the old feed before the new one.
+- **Search:** icons, ⋮ and verified ticks from the first frame; a search within the site arrives whole.
+- **Streams:** a replay's chat appears at once. In fullscreen the Chat button opens the chat beside the video — narrower than before and as tall as the video.
+
+### 1.2
+
+- **Pages appear whole, all at once:** home, channels, the video page, search, History, playlists and You — the header, cards, pictures and badges in one frame, with no grey placeholders.
+- **The splash screen is off by default:** pages appear whole without it. It can be turned on (Appearance → Loading); with it, the video on its page starts with the page.
+- **From the pop-up player to the video page in one smooth move:** the video goes on from the same instant, with no repeated or clicking sound.
+- **Theater mode** without a doubled column or a grey band around the player.
+- **Smoother scrolling** of the feed and the comments: the next videos load ahead.
+- **Search results** appear in place at once; refreshing the home feed from the logo leaves no empty screen.
+- **YouTube's new playlist pages** look right; the Watch later sort button no longer shows through.
+
+### 1.1
 
 - **Chapters in the pop-up player:** on the timeline, as on the video's page. The chapter's title next to the time opens the list of chapters above the timeline, which stays in view: the chapter playing is marked, a click jumps to a chapter, and each one can be shared.
 - **Comments in the pop-up player:** the wheel down or V raises the comments card over the video, as in fullscreen. A time in a comment plays the video from there.
@@ -30,7 +53,8 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 ## Contents
 
-- [What's new in 1.1](#whats-new)
+- [What's new in 1.2 and 1.2.1](#whats-new)
+- [Smooth and steady](#smooth)
 - [Header](#header)
 - [☰ menu](#menu)
 - [Home page](#home-page)
@@ -46,6 +70,18 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 - [Privacy](#privacy)
 - [Requirements](#requirements)
 - [Feedback](#feedback)
+
+<a id="smooth"></a>
+
+## Smooth and steady
+
+- **Pages appear whole.** YouTube shows a page in pieces: grey placeholders, then the text, then pictures and icons one by one. Neue waits until what is on screen is ready and shows it in one go — home, channels, the video page, search, History, playlists and You.
+- **Nothing jumps.** The player has the video's shape and place from the first frame, on a reload and in theater mode; the header is in place from its first frame; a channel's header and tabs and the search results stay put.
+- **Within the site:** a video's details and recommendations come together, not in steps; a video of another shape doesn't move the page; the old feed is never shown before the new one.
+- **From the pop-up player to the video page** in one move, from the same frame, with no repeated sound.
+- **Comment threads** open and close smoothly, with their own lines.
+- **The loading line** at the top runs smoothly and finishes as the page shows.
+- **Scrolling:** the next videos, comments and pictures load ahead, and Neue's own thin scrollbar never shifts the page sideways.
 
 ## Header
 
@@ -74,7 +110,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 - **The topic bar** ("All", "Music", "Gaming"…) is hidden. Turned back on, it becomes glass pills that scroll away with the page.
 - **Shorts shelves** can be hidden with one switch — on the home page, in search, in recommendations and in a channel's "For you" shelf. Where you asked for Shorts, they stay: a channel's Shorts tab and the search's Shorts filter.
 - **The topics shelf** (a shelf of topic buttons with a few videos) can be hidden too, whatever YouTube's language.
-- **A calm splash screen** with the logo covers the page while YouTube rebuilds it on a full load, instead of the page jumping into place. It can be turned off.
+- **A calm splash screen** with the logo can cover the page while YouTube rebuilds it on a full load. Off by default since 1.2: pages appear whole without it.
 
 ## Pop-up player
 
@@ -96,8 +132,10 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 ## Video page
 
-- **The same margins as the home page and channels**, instead of the page running almost to the screen's edges.
-- **Live chat** sits exactly in the recommendations column and follows window and theater-mode changes.
+- **The same margins as the home page and channels**, instead of the page running almost to the screen's edges (set in Appearance: 24–240 px from the screen edge).
+- **The player** has the video's shape and place from the first frame, even on a reload.
+- **Live chat** sits exactly in the recommendations column and follows window and theater-mode changes; a stream replay's chat appears at once.
+- **Comment threads** open and close smoothly: the replies open whole, with the thread's line, and a click on the line folds them back.
 - **Save (E)** works here too: the playlist card opens in the corner of the player, without darkening the page.
 - **Comment sorting** opens a single clean menu: "Top" and "Newest".
 
@@ -111,6 +149,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 - **Reply without leaving the video:** clicks in the comments don't pause it, and typing doesn't trigger the player's keys (k, f, m…).
 - **Card size** is adjustable: width 700–1800 px, height 40–90% of the screen.
 - At the end of a video, YouTube's end screen with recommendations stays as it is.
+- **Streams:** the Chat button opens the chat beside the video, as tall as the video.
 
 ## Channels
 
@@ -135,6 +174,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 - **Light and dark:** Neue follows YouTube's theme, the settings panel included. What sits over video — the pop-up player, the comments card, a channel header on its banner — stays dark.
 - **Glass:** opacity (30–95%) and blur (0–40 px) are set once for the whole interface.
+- **Margins:** the distance from the screen edge to the content, 24–240 px, on every page; the header follows it.
 
 ## Settings
 
@@ -155,9 +195,10 @@ The extension's button opens the settings in Chrome's side panel, next to YouTub
 | | Card width | 700–1800 px | 1200 px |
 | | Height | 40–90% | 70% |
 | **Channels** | "Welcome" button | on / off | on |
-| **Appearance** | Glass opacity | 30–95% | 60% |
+| **Appearance** | Margins from the screen edge | 24–240 px | 66 px |
+| | Glass opacity | 30–95% | 60% |
 | | Blur under the glass | 0–40 px | 20 px |
-| | Splash screen on load | on / off | on |
+| | Splash screen on load | on / off | off |
 
 The **More** page has the hotkeys, export of all settings to a JSON file, import from a file and "Reset all".
 
@@ -181,7 +222,7 @@ Neue collects nothing and sends nothing to anyone. It has no servers, analytics 
 
 ## Requirements
 
-- Chrome 125 or later on a computer, the desktop site www.youtube.com.
+- Chrome 125 or later on a computer, including one connected to a TV; the full site www.youtube.com.
 - Does not change m.youtube.com, YouTube Music or YouTube players embedded in other sites.
 
 ## Feedback
