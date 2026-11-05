@@ -11,7 +11,7 @@
 
 ---
 
-Neue changes how YouTube looks and works: a floating glass header, a video grid with as many videos per row as you like, videos that open in a pop-up player over the page, with their chapters and comments, comments over a fullscreen video, channel pages that use the whole window — and pages that appear whole and move smoothly, with no jumps. Everything else stays YouTube: your account, subscriptions, recommendations and history work as before.
+Neue changes how YouTube looks and works: a floating glass header, a video grid with as many videos per row as you like, videos that open in a pop-up player over the page, with their chapters, comments, recommendations and a stream's chat, comments over a fullscreen video, channel pages that use the whole window — and pages that appear whole and move smoothly, with no jumps. Everything else stays YouTube: your account, subscriptions, recommendations and history work as before.
 
 Settings are in Chrome's side panel, next to YouTube, and apply at once in every open tab.
 
@@ -19,7 +19,22 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 <a id="whats-new"></a>
 
-## What's new in 1.2 and 1.2.1
+## What's new in 1.3
+
+### 1.3
+
+- **A stream's chat in the pop-up player:** beside the video, or in fullscreen over it, as a see-through window you can drag anywhere. Its density and size are in the settings. The C key opens and closes it.
+- **Recommendations beside the pop-up player,** in a column level with the video, on streams too. The R key opens and closes them. In fullscreen the column stays hidden until you ask for it.
+- **A window over everything:** the P key puts the video in a small window over other tabs and programs, and back.
+- **A screenshot button** in the player, in the pop-up and on the video's page: the frame as a PNG file and on the clipboard.
+- **Comments:** threads never open empty, avatars don't pop in, and comments are already there as you scroll. Threads and scrolling are much smoother, and the comments card has Neue's thin scrollbar.
+- **The home page shows whole on a reload:** header, menu, topic chips, cards and Shorts at once. Icons no longer load before your eyes.
+- **The first screen opens faster,** on the home page and on a video's page: what you see first, what is below after it.
+- **No gaps in the grid** at any number of videos per row. Shelves like "Breaking news" show as many cards as a row, and can be hidden.
+- **Topic chips** change with no grey placeholders; **the ☰ menu** comes whole, with a thin scrollbar.
+- **In fullscreen,** Share opens right over the video, and leaving fullscreen no longer hangs the tab.
+- **The splash screen** is on by default, on the home page only.
+- **Small things:** ⋮ menus appear whole, search's × always stands last, and a playlist's "unavailable videos are hidden" note sits beside the sort chips.
 
 ### 1.2.1
 
@@ -53,7 +68,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 ## Contents
 
-- [What's new in 1.2 and 1.2.1](#whats-new)
+- [What's new in 1.3](#whats-new)
 - [Smooth and steady](#smooth)
 - [Header](#header)
 - [☰ menu](#menu)
@@ -81,7 +96,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 - **From the pop-up player to the video page** in one move, from the same frame, with no repeated sound.
 - **Comment threads** open and close smoothly, with their own lines.
 - **The loading line** at the top runs smoothly and finishes as the page shows.
-- **Scrolling:** the next videos, comments and pictures load ahead, and Neue's own thin scrollbar never shifts the page sideways.
+- **What you see comes first:** the first screen opens before anything below it is loaded. Then the next videos, comments and pictures load ahead as you scroll, and Neue's own thin scrollbar never shifts the page sideways.
 
 ## Header
 
@@ -103,6 +118,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 - **A floating glass card** at the level of the first row of videos, aligned with the left part of the header, instead of a sidebar glued to the window's edge.
 - **Docked**, the card pushes the page to the right and covers nothing.
 - **Menu items** are pills with even gaps; the current, hovered, pressed and focused item all keep the same shape.
+- **It comes whole** on a reload, with its icons from the first frame and a thin scrollbar.
 
 ## Home page
 
@@ -110,7 +126,8 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 - **The topic bar** ("All", "Music", "Gaming"…) is hidden. Turned back on, it becomes glass pills that scroll away with the page.
 - **Shorts shelves** can be hidden with one switch — on the home page, in search, in recommendations and in a channel's "For you" shelf. Where you asked for Shorts, they stay: a channel's Shorts tab and the search's Shorts filter.
 - **The topics shelf** (a shelf of topic buttons with a few videos) can be hidden too, whatever YouTube's language.
-- **A calm splash screen** with the logo can cover the page while YouTube rebuilds it on a full load. Off by default since 1.2: pages appear whole without it.
+- **News shelves** like "Breaking news" show as many cards as a row, and can be hidden as well.
+- **A calm splash screen** with the logo covers the home page while it loads. On by default since 1.3, on the home page only; it can be turned off (Appearance → Loading).
 
 ## Pop-up player
 
@@ -120,6 +137,10 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 - **The player takes the video's shape** from the start: 16:9, 21:9 and wider, 4:3, square or vertical, no jump from 16:9.
 - **Chapters** are on the timeline, as on the video's page. The chapter's title next to the time opens the list of chapters above the timeline: the chapter playing is marked, a click jumps to a chapter, and its share opens within the card.
 - **Comments over the video:** the wheel down or V raises them in a card, as in fullscreen; the wheel up at the top of the list, V, Esc or a click beside the card lowers it. A time in a comment plays the video from there.
+- **Recommendations beside the video:** R or the button opens YouTube's recommendations in a column level with the video, on streams too. A video too wide to leave room gets smaller. In fullscreen the column stays hidden until you ask for it.
+- **A stream's chat:** C or the button opens the chat beside the video. In fullscreen it is a see-through window you can drag anywhere, with its density and size in the settings.
+- **A window over everything:** P or the button puts the video in a small window over other tabs and programs, and back.
+- **Screenshot:** a button on the player saves the frame as a PNG file and copies it to the clipboard.
 - **The tab's title** is the video's while it plays in the player, and the page's again once it closes.
 - **Under the video:** the channel, Subscribe, like, share, save and ⋯ — YouTube's own buttons, working with your account.
 - **↗ opens the video's page** from the same second, in one movement: the picture moves into the page's player, sound and picture stay together. Middle click or Ctrl+click on ↗ opens it in a new tab; on a video card they work as usual on YouTube.
@@ -137,6 +158,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 - **Live chat** sits exactly in the recommendations column and follows window and theater-mode changes; a stream replay's chat appears at once.
 - **Comment threads** open and close smoothly: the replies open whole, with the thread's line, and a click on the line folds them back.
 - **Save (E)** works here too: the playlist card opens in the corner of the player, without darkening the page.
+- **Screenshot:** a button on the player saves the frame as a PNG file and copies it to the clipboard.
 - **Comment sorting** opens a single clean menu: "Top" and "Newest".
 
 ## Fullscreen
@@ -149,6 +171,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 - **Reply without leaving the video:** clicks in the comments don't pause it, and typing doesn't trigger the player's keys (k, f, m…).
 - **Card size** is adjustable: width 700–1800 px, height 40–90% of the screen.
 - At the end of a video, YouTube's end screen with recommendations stays as it is.
+- **Share** opens right over the video, whole.
 - **Streams:** the Chat button opens the chat beside the video, as tall as the video.
 
 ## Channels
@@ -185,9 +208,15 @@ The extension's button opens the settings in Chrome's side panel, next to YouTub
 | **Home** | Videos per row | 1–12 | 4 |
 | | Pop-up player | on / off | on |
 | | Close by clicking outside | on / off | on |
+| | Recommendations beside the player | on / off | on |
+| | Stream chat | on / off | on |
+| | Chat background density | 0–100% | 60% |
+| | Chat width | 240–700 px | 340 px |
+| | Chat height | 30–100% | 85% |
 | | Topic bar | on / off | off |
 | | Hide Shorts | on / off | off |
 | | Hide the topics shelf | on / off | off |
+| | Hide the news | on / off | off |
 | **Header** | Shorts, Subscriptions, You | on / off | on |
 | | My channel and Studio | on / off | on |
 | | Search bar width | 320–1400 px | 640 px |
@@ -198,7 +227,7 @@ The extension's button opens the settings in Chrome's side panel, next to YouTub
 | **Appearance** | Margins from the screen edge | 24–240 px | 66 px |
 | | Glass opacity | 30–95% | 60% |
 | | Blur under the glass | 0–40 px | 20 px |
-| | Splash screen on load | on / off | off |
+| | Splash screen on load | on / off | on |
 
 The **More** page has the hotkeys, export of all settings to a JSON file, import from a file and "Reset all".
 
@@ -210,6 +239,9 @@ The **More** page has the hotkeys, export of all settings to a JSON file, import
 | Wheel ↓ | Open the comments (fullscreen and pop-up player) |
 | <kbd>E</kbd> | Save to a playlist (pop-up player and the video's page) |
 | <kbd>F</kbd> | Pop-up player in full screen |
+| <kbd>R</kbd> | Recommendations beside the pop-up player |
+| <kbd>C</kbd> | A stream's chat in the pop-up player |
+| <kbd>P</kbd> | Pop-up player: a window over every tab and program |
 | <kbd>Esc</kbd> | Close the pop-up player |
 
 ## Languages
