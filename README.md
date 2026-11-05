@@ -11,7 +11,7 @@
 
 ---
 
-Neue changes how YouTube looks and works: a floating glass header, a video grid with as many videos per row as you like, videos that open in a pop-up player over the page, with their chapters, comments, recommendations and a stream's chat, comments over a fullscreen video, channel pages that use the whole window — and pages that appear whole and move smoothly, with no jumps. Everything else stays YouTube: your account, subscriptions, recommendations and history work as before.
+Neue changes how YouTube looks and works: a floating glass header, a video grid with as many videos per row as you like, videos that open in a pop-up player over the page, with their chapters, comments, recommendations and a stream's chat, comments over a fullscreen video, channel pages that use the whole window — and fixed animations: pages appear whole, with no grey placeholders. Everything else stays YouTube: your account, subscriptions, recommendations and history work as before.
 
 Settings are in Chrome's side panel, next to YouTube, and apply at once in every open tab.
 
@@ -69,7 +69,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 ## Contents
 
 - [What's new in 1.3](#whats-new)
-- [Smooth and steady](#smooth)
+- [Fixed YouTube animations](#smooth)
 - [Header](#header)
 - [☰ menu](#menu)
 - [Home page](#home-page)
@@ -88,7 +88,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 <a id="smooth"></a>
 
-## Smooth and steady
+## Fixed YouTube animations
 
 - **Pages appear whole.** YouTube shows a page in pieces: grey placeholders, then the text, then pictures and icons one by one. Neue waits until what is on screen is ready and shows it in one go — home, channels, the video page, search, History, playlists and You.
 - **Nothing jumps.** The player has the video's shape and place from the first frame, on a reload and in theater mode; the header is in place from its first frame; a channel's header and tabs and the search results stay put.
