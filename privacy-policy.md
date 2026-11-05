@@ -1,6 +1,6 @@
 # Neue — Privacy Policy
 
-*Effective November 3, 2026*
+*Effective November 5, 2026*
 
 [Русская версия ниже](#ru)
 
@@ -19,6 +19,7 @@ The extension keeps only what it needs to work, in your browser:
   - the margin from the screen edge (a copy of that setting), so pages are laid out with it from their first frame;
   - where and how big the player was on a video's page, for each window size, video shape and margin, so that a video's page opened again shows its player in place from the first frame;
   - the shapes of YouTube's own icons (on video cards, under a video, in comments, in search and on playlist pages), so they are drawn from the first frame instead of appearing later;
+  - the pop-up player's stream chat window: where it was left in full screen, and what was left open beside the player (recommendations or chat), so they open the same way next time;
   - the width of the header's buttons on the right, so the header keeps their place until YouTube draws them.
 - **In the settings panel's own storage**, the settings page opened last and the theme last seen, so the panel opens in it at once.
 
@@ -29,8 +30,11 @@ The extension connects only to YouTube, the site you are already on:
 - When you open a video in the pop-up player, it loads that video's YouTube page, with your YouTube cookies, as opening the page yourself would. This shows the video's channel, the Subscribe, like and save buttons with your own state, and the video's chapters. When you open its comments, YouTube's own comments panel loads them from YouTube, as on the video's page.
 - When the pointer rests on a video on the home page or a channel page, or when you open it, it asks YouTube's oEmbed service (youtube.com/oembed) for the video's size, so that the pop-up player opens in the video's shape.
 - To find a channel's welcome video, it may load the channel's YouTube page without your cookies.
+- When you open a stream's chat in the pop-up player, it loads YouTube's own live chat page, with your YouTube cookies, as the watch page does.
 - It shows video thumbnails from YouTube's image server (i.ytimg.com).
 - While you scroll the feed or the comments, it lets YouTube's own page load the next videos, comments and their pictures a little ahead of where you are — from YouTube, as the page would anyway once you scroll there.
+
+A screenshot from the player's button is made in your browser: it is saved to your computer and copied to your clipboard, and goes nowhere else.
 
 Nothing is sent to the developer or to anyone else.
 
@@ -66,7 +70,7 @@ Neue is an independent project and is not affiliated with or endorsed by YouTube
 
 # Neue — Политика конфиденциальности
 
-*Действует с 3 ноября 2026 года*
+*Действует с 5 ноября 2026 года*
 
 Neue — расширение для браузера, которое меняет интерфейс сайта YouTube (www.youtube.com) в вашем браузере. Оно не собирает, не продаёт и не передаёт ваши персональные данные. У него нет своих серверов, аналитики, рекламы и слежки.
 
@@ -83,6 +87,7 @@ Neue — расширение для браузера, которое меняе
   - отступ от края экрана (копия этой настройки) — чтобы страницы раскладывались с ним с первого кадра;
   - где и какого размера был плеер на странице видео — для каждого размера окна, формы видео и отступа, — чтобы при повторном открытии страницы видео плеер стоял на месте с первого кадра;
   - формы значков самого YouTube (на карточках видео, под видео, в комментариях, в поиске и на страницах плейлистов) — чтобы рисовать их с первого кадра, а не ждать, пока они догрузятся;
+  - окно чата трансляции во всплывающем плеере: где оно стояло на весь экран и что было открыто рядом с плеером (рекомендации или чат), чтобы в следующий раз всё открылось так же;
   - ширина кнопок справа в шапке — чтобы шапка держала для них место, пока YouTube их не нарисует.
 - **В хранилище самой панели настроек** — какая страница настроек была открыта последней и какая тема была последней, чтобы панель сразу открывалась в ней.
 
@@ -93,8 +98,11 @@ Neue — расширение для браузера, которое меняе
 - Когда вы открываете видео во всплывающем плеере, оно загружает страницу этого видео на YouTube с вашими куками YouTube — так же, как если бы вы открыли её сами. Так под видео появляются канал, кнопки «Подписаться», лайка и «Сохранить» в вашем состоянии, а на шкале — главы видео. Когда вы открываете комментарии, их загружает с YouTube собственная панель комментариев YouTube — так же, как на странице видео.
 - Когда курсор задерживается на видео на главной или на странице канала или вы его открываете, оно спрашивает у сервиса oEmbed YouTube (youtube.com/oembed) размер видео, чтобы всплывающий плеер открылся в форме ролика.
 - Чтобы найти приветственное видео канала, оно может загрузить страницу канала на YouTube без ваших кук.
+- Когда вы открываете чат трансляции во всплывающем плеере, оно загружает страницу чата самого YouTube с вашими куками YouTube — так же, как страница видео.
 - Превью видео показываются с сервера картинок YouTube (i.ytimg.com).
 - Когда вы листаете ленту или комментарии, оно позволяет странице YouTube загрузить следующие видео, комментарии и их картинки чуть заранее — с YouTube, как страница и так сделала бы, когда вы до них долистаете.
+
+Скриншот по кнопке в плеере делается в вашем браузере: он сохраняется на компьютер и копируется в буфер обмена, больше никуда не уходит.
 
 Разработчику и кому-либо ещё ничего не отправляется.
 
