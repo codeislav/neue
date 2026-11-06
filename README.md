@@ -19,7 +19,23 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 <a id="whats-new"></a>
 
-## What's new in 1.3
+## What's new in 1.3.1
+
+### 1.3.1: settings rework
+
+- **Settings laid out anew:** the feed and the player are on Home, the channel trailer is in Appearance, and the separate Channels tab is gone.
+- **Hide Playables:** shelves and cards with games.
+- **Hide Shorts, now choosing where:** the home page and subscriptions, search, recommendations, channel pages.
+- **Header buttons turn off one by one:** Shorts, Subscriptions, You, View channel, YouTube Studio.
+- **No more spinner under empty places:** while the feed loads more, a small Neue logo sits in the middle of the coming batch.
+- **The account menu in Neue's glass,** with all its sub-menus. It no longer jumps aside, and long lists scroll inside it. An open menu closes when a click on a video opens the pop-up player.
+- **Pop-up player:** views and date under the title. The bottom bar and the title appear together, and the title is no longer a link.
+- **The buttons under a video stay on one line longer:** Share loses its label first.
+- **The ☰ menu on a video's page** lies exactly on the player, with no gaps.
+- **A double click on the scrollbar's thumb** goes back to the top. The thumb presses across the bar's whole width, up to the window's edge.
+- **The ⋮ and like icons** no longer switch off for good after one unusual shape in a profile.
+- **A comment thread's line is now one line:** its straight and curved parts are of one width. The "N replies" button stands where the first reply opens, so nothing jumps as they open.
+- **In the pop-up player replies open in 0.7 seconds instead of 3.5:** all avatars and the creator's hearts appear together, and the block opens at its final size. The comments card rises at its full height instead of growing when they come.
 
 ### 1.3
 
@@ -68,7 +84,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 ## Contents
 
-- [What's new in 1.3](#whats-new)
+- [What's new in 1.3.1](#whats-new)
 - [Fixed YouTube animations](#smooth)
 - [Header](#header)
 - [☰ menu](#menu)
@@ -94,17 +110,19 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 - **Nothing jumps.** The player has the video's shape and place from the first frame, on a reload and in theater mode; the header is in place from its first frame; a channel's header and tabs and the search results stay put.
 - **Within the site:** a video's details and recommendations come together, not in steps; a video of another shape doesn't move the page; the old feed is never shown before the new one.
 - **From the pop-up player to the video page** in one move, from the same frame, with no repeated sound.
-- **Comment threads** open and close smoothly, with their own lines.
+- **Comment threads** open and close smoothly, with one even line, and the "N replies" row doesn't shift as they open.
+- **While the feed loads more,** a small Neue logo stands in the middle of the coming batch, not a spinner under empty places.
 - **The loading line** at the top runs smoothly and finishes as the page shows.
-- **What you see comes first:** the first screen opens before anything below it is loaded. Then the next videos, comments and pictures load ahead as you scroll, and Neue's own thin scrollbar never shifts the page sideways.
+- **What you see comes first:** the first screen opens before anything below it is loaded. Then the next videos, comments and pictures load ahead as you scroll, and Neue's own thin scrollbar never shifts the page sideways. A double click on its thumb goes back to the top.
 
 ## Header
 
 - **Floating glass buttons.** The flat top bar becomes a row of glass buttons and pills that line up with the edges of the video grid.
 - **The logo** is a glass pill of the same height as the buttons.
-- **Shorts, Subscriptions and You** move from the left column to the header, next to ☰.
+- **Shorts, Subscriptions and You** move from the left column to the header, next to ☰. Each can be turned off.
 - **Their menus** open on hover as a glass card right under the button, with rounded items.
-- **"My channel" and "Studio"** become buttons before "Create" instead of hiding in the account menu.
+- **"My channel" and "Studio"** become buttons before "Create" instead of hiding in the account menu. Each can be turned off.
+- **The account menu** is in the same glass, with all its sub-menus. It opens under its button and stays there, and long lists scroll inside it.
 - **Search bar width** is yours to choose: 320 to 1400 px. In a narrow window it gets shorter and never runs into the buttons.
 - **One style for every button:** the same size, the same glass, the same shadow. The microphone loses its grey disc.
 - **Icons are there at once.** YouTube loads its header icons a few seconds after the page appears; Neue draws them itself, so they are in place from the first frame.
@@ -119,15 +137,17 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 - **Docked**, the card pushes the page to the right and covers nothing.
 - **Menu items** are pills with even gaps; the current, hovered, pressed and focused item all keep the same shape.
 - **It comes whole** on a reload, with its icons from the first frame and a thin scrollbar.
+- **On a video's page** it lies exactly on the player, with no gaps.
 
 ## Home page
 
 - **Videos per row: 1 to 12**, applied at once, without reloading. The number is a maximum: a narrow window shows fewer, so the cards don't get too small.
 - **The topic bar** ("All", "Music", "Gaming"…) is hidden. Turned back on, it becomes glass pills that scroll away with the page.
-- **Shorts shelves** can be hidden with one switch — on the home page, in search, in recommendations and in a channel's "For you" shelf. Where you asked for Shorts, they stay: a channel's Shorts tab and the search's Shorts filter.
+- **Shorts** can be hidden, and you choose where: the home page and subscriptions, search, recommendations, channel pages. Where you asked for Shorts, they stay: a channel's Shorts tab and the search's Shorts filter.
+- **Playables** (shelves and cards with games) can be hidden too.
 - **The topics shelf** (a shelf of topic buttons with a few videos) can be hidden too, whatever YouTube's language.
 - **News shelves** like "Breaking news" show as many cards as a row, and can be hidden as well.
-- **A calm splash screen** with the logo covers the home page while it loads. On by default since 1.3, on the home page only; it can be turned off (Appearance → Loading).
+- **A calm splash screen** with the logo covers the home page while it loads. On by default since 1.3, on the home page only; it can be turned off (Home → Loading).
 
 ## Pop-up player
 
@@ -142,6 +162,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 - **A window over everything:** P or the button puts the video in a small window over other tabs and programs, and back.
 - **Screenshot:** a button on the player saves the frame as a PNG file and copies it to the clipboard.
 - **The tab's title** is the video's while it plays in the player, and the page's again once it closes.
+- **Views and date** under the title over the player. The title and the bottom bar appear together, and the title is no longer a link.
 - **Under the video:** the channel, Subscribe, like, share, save and ⋯ — YouTube's own buttons, working with your account.
 - **↗ opens the video's page** from the same second, in one movement: the picture moves into the page's player, sound and picture stay together. Middle click or Ctrl+click on ↗ opens it in a new tab; on a video card they work as usual on YouTube.
 - **↗ and ×** look and hide like the player's own round buttons.
@@ -160,6 +181,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 - **Save (E)** works here too: the playlist card opens in the corner of the player, without darkening the page.
 - **Screenshot:** a button on the player saves the frame as a PNG file and copies it to the clipboard.
 - **Comment sorting** opens a single clean menu: "Top" and "Newest".
+- **The buttons under the video** stay on one line with the channel longer: with too many of them, Share loses its label first.
 
 ## Fullscreen
 
@@ -206,6 +228,15 @@ The extension's button opens the settings in Chrome's side panel, next to YouTub
 | Section | Setting | Values | Default |
 |---|---|---|---|
 | **Home** | Videos per row | 1–12 | 4 |
+| | Topic bar | on / off | off |
+| | Hide Shorts | on / off | off |
+| | — On the home page and in subscriptions | on / off | on |
+| | — In search | on / off | on |
+| | — In recommendations | on / off | on |
+| | — On channel pages | on / off | on |
+| | Hide Playables | on / off | off |
+| | Hide the topics shelf | on / off | off |
+| | Hide the news | on / off | off |
 | | Pop-up player | on / off | on |
 | | Close by clicking outside | on / off | on |
 | | Recommendations beside the player | on / off | on |
@@ -213,21 +244,20 @@ The extension's button opens the settings in Chrome's side panel, next to YouTub
 | | Chat background density | 0–100% | 60% |
 | | Chat width | 240–700 px | 340 px |
 | | Chat height | 30–100% | 85% |
-| | Topic bar | on / off | off |
-| | Hide Shorts | on / off | off |
-| | Hide the topics shelf | on / off | off |
-| | Hide the news | on / off | off |
-| **Header** | Shorts, Subscriptions, You | on / off | on |
-| | My channel and Studio | on / off | on |
+| | Splash screen on load | on / off | on |
+| **Header** | Shorts | on / off | on |
+| | Subscriptions | on / off | on |
+| | You | on / off | on |
+| | View channel | on / off | on |
+| | YouTube Studio | on / off | on |
 | | Search bar width | 320–1400 px | 640 px |
 | **Fullscreen** | Comments over the video | on / off | on |
 | | Card width | 700–1800 px | 1200 px |
 | | Height | 40–90% | 70% |
-| **Channels** | "Welcome" button | on / off | on |
 | **Appearance** | Margins from the screen edge | 24–240 px | 66 px |
 | | Glass opacity | 30–95% | 60% |
 | | Blur under the glass | 0–40 px | 20 px |
-| | Splash screen on load | on / off | on |
+| | "Welcome" button | on / off | on |
 
 The **More** page has the hotkeys, export of all settings to a JSON file, import from a file and "Reset all".
 
