@@ -1,6 +1,6 @@
 # Neue — Privacy Policy
 
-*Effective November 5, 2026*
+*Effective November 7, 2026*
 
 [Русская версия ниже](#ru)
 
@@ -18,7 +18,7 @@ The extension keeps only what it needs to work, in your browser:
   - whether the loading screen is on, and whether YouTube is in its light or dark theme, so the loading screen shows the right colours from its first frame;
   - the margin from the screen edge (a copy of that setting), so pages are laid out with it from their first frame;
   - where and how big the player was on a video's page, for each window size, video shape and margin, so that a video's page opened again shows its player in place from the first frame;
-  - the shapes of YouTube's own icons (on video cards, under a video, in comments, in search and on playlist pages), so they are drawn from the first frame instead of appearing later;
+  - the shapes of YouTube's own icons (on video cards, under a video, in comments, in search and on playlist pages), each by its place or its button's label, and how many times each shape was seen there, so they are drawn from the first frame instead of appearing later. A button's label can name a channel or a video (the bell on a channel's page names the channel); like everything here, it stays in your browser;
   - the pop-up player's stream chat window: where it was left in full screen, and what was left open beside the player (recommendations or chat), so they open the same way next time;
   - the width of the header's buttons on the right, so the header keeps their place until YouTube draws them.
 - **In the settings panel's own storage**, the settings page opened last and the theme last seen, so the panel opens in it at once.
@@ -70,7 +70,7 @@ Neue is an independent project and is not affiliated with or endorsed by YouTube
 
 # Neue — Политика конфиденциальности
 
-*Действует с 5 ноября 2026 года*
+*Действует с 7 ноября 2026 года*
 
 Neue — расширение для браузера, которое меняет интерфейс сайта YouTube (www.youtube.com) в вашем браузере. Оно не собирает, не продаёт и не передаёт ваши персональные данные. У него нет своих серверов, аналитики, рекламы и слежки.
 
@@ -86,7 +86,7 @@ Neue — расширение для браузера, которое меняе
   - включена ли заставка и какая тема у YouTube, светлая или тёмная, — чтобы заставка была нужного цвета с первого кадра;
   - отступ от края экрана (копия этой настройки) — чтобы страницы раскладывались с ним с первого кадра;
   - где и какого размера был плеер на странице видео — для каждого размера окна, формы видео и отступа, — чтобы при повторном открытии страницы видео плеер стоял на месте с первого кадра;
-  - формы значков самого YouTube (на карточках видео, под видео, в комментариях, в поиске и на страницах плейлистов) — чтобы рисовать их с первого кадра, а не ждать, пока они догрузятся;
+  - формы значков самого YouTube (на карточках видео, под видео, в комментариях, в поиске и на страницах плейлистов), каждая по своему месту или подписи своей кнопки, и сколько раз каждая форма там встретилась — чтобы рисовать их с первого кадра, а не ждать, пока они догрузятся. Подпись кнопки может называть канал или видео (колокольчик на странице канала называет канал); как и всё здесь, она остаётся в вашем браузере;
   - окно чата трансляции во всплывающем плеере: где оно стояло на весь экран и что было открыто рядом с плеером (рекомендации или чат), чтобы в следующий раз всё открылось так же;
   - ширина кнопок справа в шапке — чтобы шапка держала для них место, пока YouTube их не нарисует.
 - **В хранилище самой панели настроек** — какая страница настроек была открыта последней и какая тема была последней, чтобы панель сразу открывалась в ней.
