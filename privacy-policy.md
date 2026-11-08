@@ -1,6 +1,6 @@
 # Neue — Privacy Policy
 
-*Effective November 7, 2026*
+*Effective November 8, 2026*
 
 [Русская версия ниже](#ru)
 
@@ -17,17 +17,19 @@ The extension keeps only what it needs to work, in your browser:
   - which video each channel shows as its welcome video (video IDs, for up to 100 channels), for the "Welcome" button;
   - whether the loading screen is on, and whether YouTube is in its light or dark theme, so the loading screen shows the right colours from its first frame;
   - the margin from the screen edge (a copy of that setting), so pages are laid out with it from their first frame;
-  - where and how big the player was on a video's page, for each window size, video shape and margin, so that a video's page opened again shows its player in place from the first frame;
+  - where and how big the player was on a video's page, for each window size, video shape and margin, so that a video's page opened again shows its player in place from the first frame; and where the player was on the Shorts page, for each window size, for the same reason;
   - the shapes of YouTube's own icons (on video cards, under a video, in comments, in search and on playlist pages), each by its place or its button's label, and how many times each shape was seen there, so they are drawn from the first frame instead of appearing later. A button's label can name a channel or a video (the bell on a channel's page names the channel); like everything here, it stays in your browser;
   - the pop-up player's stream chat window: where it was left in full screen, and what was left open beside the player (recommendations or chat), so they open the same way next time;
+  - whether autoplay is on in the pop-up player;
   - the width of the header's buttons on the right, so the header keeps their place until YouTube draws them.
+- **On www.youtube.com, in the site's session storage, only until you close the pop-up player or the tab:** the video open in the pop-up player and the second you are at (for a Short, also the video IDs of the block it was opened from), so a reloaded or reopened tab brings it back.
 - **In the settings panel's own storage**, the settings page opened last and the theme last seen, so the panel opens in it at once.
 
 ## Network requests
 
 The extension connects only to YouTube, the site you are already on:
 
-- When you open a video in the pop-up player, it loads that video's YouTube page, with your YouTube cookies, as opening the page yourself would. This shows the video's channel, the Subscribe, like and save buttons with your own state, and the video's chapters. When you open its comments, YouTube's own comments panel loads them from YouTube, as on the video's page.
+- When you open a video in the pop-up player, it loads that video's YouTube page, with your YouTube cookies, as opening the page yourself would. For a Short it loads the Short's page. This shows the video's channel, the Subscribe, like and save buttons with your own state, and the video's chapters. To show a video's end screen and info cards, it asks YouTube's player service for that video's data once more, also with your YouTube cookies. When you open its comments, YouTube's own comments panel loads them from YouTube, as on the video's page. When you open a Short's track, it asks YouTube for more Shorts with that track as you scroll through them, with your YouTube cookies, as YouTube's own page does.
 - When the pointer rests on a video on the home page or a channel page, or when you open it, it asks YouTube's oEmbed service (youtube.com/oembed) for the video's size, so that the pop-up player opens in the video's shape.
 - To find a channel's welcome video, it may load the channel's YouTube page without your cookies.
 - When you open a stream's chat in the pop-up player, it loads YouTube's own live chat page, with your YouTube cookies, as the watch page does.
@@ -52,7 +54,7 @@ Nothing is sent to the developer or to anyone else.
 
 ## Removing the data
 
-Removing the extension deletes its settings and its extension storage. The entries it kept in www.youtube.com's local storage (their names start with `ytg-`) go away when you clear YouTube's site data in Chrome's settings. "Reset all" in the extension's settings restores the default settings.
+Removing the extension deletes its settings and its extension storage. The entries it kept in www.youtube.com's local and session storage (their names start with `ytg-`) go away when you clear YouTube's site data in Chrome's settings. "Reset all" in the extension's settings restores the default settings.
 
 ## Changes
 
@@ -70,7 +72,7 @@ Neue is an independent project and is not affiliated with or endorsed by YouTube
 
 # Neue — Политика конфиденциальности
 
-*Действует с 7 ноября 2026 года*
+*Действует с 8 ноября 2026 года*
 
 Neue — расширение для браузера, которое меняет интерфейс сайта YouTube (www.youtube.com) в вашем браузере. Оно не собирает, не продаёт и не передаёт ваши персональные данные. У него нет своих серверов, аналитики, рекламы и слежки.
 
@@ -85,17 +87,19 @@ Neue — расширение для браузера, которое меняе
   - какое видео каждый канал показывает в приветствии (идентификаторы видео, не больше 100 каналов) — для кнопки «Приветствие»;
   - включена ли заставка и какая тема у YouTube, светлая или тёмная, — чтобы заставка была нужного цвета с первого кадра;
   - отступ от края экрана (копия этой настройки) — чтобы страницы раскладывались с ним с первого кадра;
-  - где и какого размера был плеер на странице видео — для каждого размера окна, формы видео и отступа, — чтобы при повторном открытии страницы видео плеер стоял на месте с первого кадра;
+  - где и какого размера был плеер на странице видео — для каждого размера окна, формы видео и отступа, — чтобы при повторном открытии страницы видео плеер стоял на месте с первого кадра; и где был плеер на странице Shorts — для каждого размера окна, для того же;
   - формы значков самого YouTube (на карточках видео, под видео, в комментариях, в поиске и на страницах плейлистов), каждая по своему месту или подписи своей кнопки, и сколько раз каждая форма там встретилась — чтобы рисовать их с первого кадра, а не ждать, пока они догрузятся. Подпись кнопки может называть канал или видео (колокольчик на странице канала называет канал); как и всё здесь, она остаётся в вашем браузере;
   - окно чата трансляции во всплывающем плеере: где оно стояло на весь экран и что было открыто рядом с плеером (рекомендации или чат), чтобы в следующий раз всё открылось так же;
+  - включено ли автовоспроизведение во всплывающем плеере;
   - ширина кнопок справа в шапке — чтобы шапка держала для них место, пока YouTube их не нарисует.
+- **На www.youtube.com, в сессионном хранилище сайта, только пока вы не закрыли всплывающий плеер или вкладку:** какое видео открыто в плеере и на какой оно секунде (для Shorts ещё идентификаторы видео из блока, откуда он открыт), чтобы обновлённая или заново открытая вкладка вернула его.
 - **В хранилище самой панели настроек** — какая страница настроек была открыта последней и какая тема была последней, чтобы панель сразу открывалась в ней.
 
 ## Сетевые запросы
 
 Расширение обращается только к YouTube — сайту, на котором вы и так находитесь:
 
-- Когда вы открываете видео во всплывающем плеере, оно загружает страницу этого видео на YouTube с вашими куками YouTube — так же, как если бы вы открыли её сами. Так под видео появляются канал, кнопки «Подписаться», лайка и «Сохранить» в вашем состоянии, а на шкале — главы видео. Когда вы открываете комментарии, их загружает с YouTube собственная панель комментариев YouTube — так же, как на странице видео.
+- Когда вы открываете видео во всплывающем плеере, оно загружает страницу этого видео на YouTube с вашими куками YouTube — так же, как если бы вы открыли её сами. Для Shorts оно загружает страницу этого Shorts. Так под видео появляются канал, кнопки «Подписаться», лайка и «Сохранить» в вашем состоянии, а на шкале — главы видео. Чтобы показать конечную заставку и подсказки видео, оно ещё раз запрашивает данные этого видео у сервиса плеера YouTube, тоже с вашими куками YouTube. Когда вы открываете комментарии, их загружает с YouTube собственная панель комментариев YouTube — так же, как на странице видео. Когда вы открываете трек Shorts, оно по мере прокрутки запрашивает у YouTube другие Shorts с этим треком, с вашими куками YouTube, — так же, как собственная страница YouTube.
 - Когда курсор задерживается на видео на главной или на странице канала или вы его открываете, оно спрашивает у сервиса oEmbed YouTube (youtube.com/oembed) размер видео, чтобы всплывающий плеер открылся в форме ролика.
 - Чтобы найти приветственное видео канала, оно может загрузить страницу канала на YouTube без ваших кук.
 - Когда вы открываете чат трансляции во всплывающем плеере, оно загружает страницу чата самого YouTube с вашими куками YouTube — так же, как страница видео.
@@ -120,7 +124,7 @@ Neue — расширение для браузера, которое меняе
 
 ## Как удалить данные
 
-При удалении расширения удаляются его настройки и хранилище. Записи в локальном хранилище www.youtube.com (их названия начинаются с `ytg-`) удаляются вместе с данными сайта YouTube в настройках Chrome. «Сбросить всё» в настройках расширения возвращает настройки по умолчанию.
+При удалении расширения удаляются его настройки и хранилище. Записи в локальном и сессионном хранилищах www.youtube.com (их названия начинаются с `ytg-`) удаляются вместе с данными сайта YouTube в настройках Chrome. «Сбросить всё» в настройках расширения возвращает настройки по умолчанию.
 
 ## Изменения
 
