@@ -19,7 +19,19 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 <a id="whats-new"></a>
 
-## What's new in 1.3.1
+## What's new in 1.3.2
+
+### 1.3.2: pop-up player
+
+- **Shorts in the pop-up player:** upright, with YouTube's own buttons, title and timeline. The wheel or ↑ ↓ scroll only through the block you opened them from, with no unrelated Shorts. Comments and the track's other Shorts open beside the player, and the player stays in place.
+- **The Shorts page works like the pop-up:** the title on the player, comments beside it without moving it, the next Short at once instead of a scroll that stalls halfway, nothing jumping on reload.
+- **The pop-up player works in search results** too.
+- **The player comes back with its tab:** after a reload or reopening the browser, the same video from the same second.
+- **End screens, their Hide button, info cards and autoplay:** the next video opens right in the player.
+- **Comments and the description are two tabs of one card,** in the pop-up and in fullscreen. A click beside the card closes it.
+- **The card and a stream's chat are resized by their edges** with the mouse, like windows.
+- **The player opens and closes with no steps:** the blur and the video move as one. Measured, it starts moving 2 to 5 times sooner after a click. Recommendations slide in lightly.
+- **Small things:** chat badges come with their messages, streams no longer open as a square for a moment, closing a stream from fullscreen no longer breaks the animation, and a click pauses the first time, in a video's first seconds too.
 
 ### 1.3.1: settings rework
 
@@ -84,7 +96,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 ## Contents
 
-- [What's new in 1.3.1](#whats-new)
+- [What's new in 1.3.2](#whats-new)
 - [Fixed YouTube animations](#smooth)
 - [Header](#header)
 - [☰ menu](#menu)
@@ -109,7 +121,9 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 - **Pages appear whole.** YouTube shows a page in pieces: grey placeholders, then the text, then pictures and icons one by one. Neue waits until what is on screen is ready and shows it in one go — home, channels, the video page, search, History, playlists and You.
 - **Nothing jumps.** The player has the video's shape and place from the first frame, on a reload and in theater mode; the header is in place from its first frame; a channel's header and tabs and the search results stay put.
 - **Within the site:** a video's details and recommendations come together, not in steps; a video of another shape doesn't move the page; the old feed is never shown before the new one.
+- **The pop-up player** opens and closes with no steps: the blur and the video move as one.
 - **From the pop-up player to the video page** in one move, from the same frame, with no repeated sound.
+- **The Shorts page** works like the pop-up: the title on the player, comments beside it without moving it, the next Short at once, nothing jumping on reload.
 - **Comment threads** open and close smoothly, with one even line, and the "N replies" row doesn't shift as they open.
 - **While the feed loads more,** a small Neue logo stands in the middle of the coming batch, not a spinner under empty places.
 - **The loading line** at the top runs smoothly and finishes as the page shows.
@@ -153,10 +167,13 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 ![A video in the pop-up player over the home page](images/2-quick-view.png)
 
-- **A click on a video** on the home page or a channel page opens it in a pop-up player over the page. The page stays where it was.
+- **A click on a video** on the home page, a channel page or in search results opens it in a pop-up player over the page. The page stays where it was.
+- **Shorts** open in it too, upright, with YouTube's own buttons. The wheel or ↑ ↓ scroll only through the block you opened them from; comments and the track's other Shorts open beside the player.
+- **It comes back with its tab:** after a reload or reopening the browser, the same video from the same second.
+- **End screens, info cards and autoplay** work as on the video's page: the next video opens right in the player.
 - **The player takes the video's shape** from the start: 16:9, 21:9 and wider, 4:3, square or vertical, no jump from 16:9.
 - **Chapters** are on the timeline, as on the video's page. The chapter's title next to the time opens the list of chapters above the timeline: the chapter playing is marked, a click jumps to a chapter, and its share opens within the card.
-- **Comments over the video:** the wheel down or V raises them in a card, as in fullscreen; the wheel up at the top of the list, V, Esc or a click beside the card lowers it. A time in a comment plays the video from there.
+- **Comments over the video:** the wheel down or V raises them in a card, as in fullscreen; the wheel up at the top of the list, V, Esc or a click beside the card lowers it. A time in a comment plays the video from there. The description is the card's second tab, and the card is resized by its edges.
 - **Recommendations beside the video:** R or the button opens YouTube's recommendations in a column level with the video, on streams too. A video too wide to leave room gets smaller. In fullscreen the column stays hidden until you ask for it.
 - **A stream's chat:** C or the button opens the chat beside the video. In fullscreen it is a see-through window you can drag anywhere, with its density and size in the settings.
 - **A window over everything:** P or the button puts the video in a small window over other tabs and programs, and back.
@@ -272,6 +289,7 @@ The **More** page has the hotkeys, export of all settings to a JSON file, import
 | <kbd>R</kbd> | Recommendations beside the pop-up player |
 | <kbd>C</kbd> | A stream's chat in the pop-up player |
 | <kbd>P</kbd> | Pop-up player: a window over every tab and program |
+| <kbd>↑</kbd> <kbd>↓</kbd> | Previous and next Short (pop-up player and the Shorts page) |
 | <kbd>Esc</kbd> | Close the pop-up player |
 
 ## Languages
