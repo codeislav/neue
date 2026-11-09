@@ -1,6 +1,6 @@
 # Neue — Privacy Policy
 
-*Effective November 8, 2026*
+*Effective November 9, 2026*
 
 [Русская версия ниже](#ru)
 
@@ -10,8 +10,8 @@ Neue is a browser extension that changes the interface of the YouTube website (w
 
 The extension keeps only what it needs to work, in your browser:
 
-- **Your settings** (videos per row, which buttons to show, glass opacity and so on), in Chrome's extension storage. If Chrome sync is on, Chrome syncs them between your devices through your Google account, as it does for other extensions; the developer has no access to them.
-- **YouTube's interface language and theme** (light or dark), in Chrome's extension storage, so the settings panel speaks the same language as YouTube and follows its theme.
+- **Your settings** (videos per row, which buttons to show, glass opacity and so on), in the browser's extension storage. If your browser syncs extension data between your devices (Chrome through your Google account, Firefox through your Firefox account, and so on), it syncs them as it does for other extensions; the developer has no access to them.
+- **YouTube's interface language and theme** (light or dark), in the browser's extension storage, so the settings panel speaks the same language as YouTube and follows its theme.
 - **On www.youtube.com, in the site's local storage:**
   - the link to your own channel, together with the address of your account picture to tell which account it belongs to, for the "My channel" button;
   - which video each channel shows as its welcome video (video IDs, for up to 100 channels), for the "Welcome" button;
@@ -45,7 +45,7 @@ Nothing is sent to the developer or to anyone else.
 - It does not collect personal information, browsing history, what you watch or what you type.
 - It does not use analytics, advertising or tracking of any kind.
 - It does not sell or transfer data to third parties.
-- It does not load or run code from the internet: all its code is in the package reviewed by the Chrome Web Store.
+- It does not load or run code from the internet: all its code is in the package reviewed by the store you installed it from (Chrome Web Store, Microsoft Edge Add-ons, Opera add-ons, Firefox Add-ons or the App Store).
 - It does not run on any site other than www.youtube.com.
 
 ## Settings file
@@ -54,7 +54,7 @@ Nothing is sent to the developer or to anyone else.
 
 ## Removing the data
 
-Removing the extension deletes its settings and its extension storage. The entries it kept in www.youtube.com's local and session storage (their names start with `ytg-`) go away when you clear YouTube's site data in Chrome's settings. "Reset all" in the extension's settings restores the default settings.
+Removing the extension deletes its settings and its extension storage. The entries it kept in www.youtube.com's local and session storage (their names start with `ytg-`) go away when you clear YouTube's site data in your browser's settings. "Reset all" in the extension's settings restores the default settings.
 
 ## Changes
 
@@ -62,7 +62,7 @@ If this policy changes, the new version is published at this address with a new 
 
 ## Contact
 
-Questions about privacy: the Support tab on the extension's page in the Chrome Web Store.
+Questions about privacy: https://github.com/codeislav/neue/issues, or the support section of Neue's page in the store you installed it from.
 
 Neue is an independent project and is not affiliated with or endorsed by YouTube or Google.
 
@@ -72,7 +72,7 @@ Neue is an independent project and is not affiliated with or endorsed by YouTube
 
 # Neue — Политика конфиденциальности
 
-*Действует с 8 ноября 2026 года*
+*Действует с 9 ноября 2026 года*
 
 Neue — расширение для браузера, которое меняет интерфейс сайта YouTube (www.youtube.com) в вашем браузере. Оно не собирает, не продаёт и не передаёт ваши персональные данные. У него нет своих серверов, аналитики, рекламы и слежки.
 
@@ -80,8 +80,8 @@ Neue — расширение для браузера, которое меняе
 
 Расширение хранит в браузере только то, что нужно для работы:
 
-- **Ваши настройки** (видео в ряду, какие кнопки показывать, плотность стекла и т. д.) — в хранилище расширений Chrome. Если в Chrome включена синхронизация, Chrome переносит их между вашими устройствами через аккаунт Google, как и настройки других расширений; у разработчика доступа к ним нет.
-- **Язык интерфейса YouTube и его тема** (светлая или тёмная) — в хранилище расширений Chrome, чтобы панель настроек говорила на том же языке, что и YouTube, и была в его теме.
+- **Ваши настройки** (видео в ряду, какие кнопки показывать, плотность стекла и т. д.) — в хранилище расширений браузера. Если браузер синхронизирует данные расширений между вашими устройствами (Chrome — через аккаунт Google, Firefox — через аккаунт Firefox и т. д.), он переносит и их, как настройки других расширений; у разработчика доступа к ним нет.
+- **Язык интерфейса YouTube и его тема** (светлая или тёмная) — в хранилище расширений браузера, чтобы панель настроек говорила на том же языке, что и YouTube, и была в его теме.
 - **На www.youtube.com, в локальном хранилище сайта:**
   - ссылка на ваш канал вместе с адресом картинки аккаунта, чтобы понять, к какому аккаунту она относится, — для кнопки «Мой канал»;
   - какое видео каждый канал показывает в приветствии (идентификаторы видео, не больше 100 каналов) — для кнопки «Приветствие»;
@@ -115,7 +115,7 @@ Neue — расширение для браузера, которое меняе
 - Не собирает персональные данные, историю браузера, то, что вы смотрите или вводите.
 - Не использует аналитику, рекламу и любую слежку.
 - Не продаёт и не передаёт данные третьим лицам.
-- Не загружает и не запускает код из интернета: весь его код — в пакете, который проверяет Chrome Web Store.
+- Не загружает и не запускает код из интернета: весь его код — в пакете, который проверил магазин, откуда вы его установили (Chrome Web Store, Microsoft Edge Add-ons, Opera add-ons, Firefox Add-ons или App Store).
 - Не работает ни на каких сайтах, кроме www.youtube.com.
 
 ## Файл настроек
@@ -124,7 +124,7 @@ Neue — расширение для браузера, которое меняе
 
 ## Как удалить данные
 
-При удалении расширения удаляются его настройки и хранилище. Записи в локальном и сессионном хранилищах www.youtube.com (их названия начинаются с `ytg-`) удаляются вместе с данными сайта YouTube в настройках Chrome. «Сбросить всё» в настройках расширения возвращает настройки по умолчанию.
+При удалении расширения удаляются его настройки и хранилище. Записи в локальном и сессионном хранилищах www.youtube.com (их названия начинаются с `ytg-`) удаляются вместе с данными сайта YouTube в настройках браузера. «Сбросить всё» в настройках расширения возвращает настройки по умолчанию.
 
 ## Изменения
 
@@ -132,6 +132,6 @@ Neue — расширение для браузера, которое меняе
 
 ## Связь
 
-Вопросы о конфиденциальности — во вкладке «Поддержка» на странице расширения в Chrome Web Store.
+Вопросы о конфиденциальности — https://github.com/codeislav/neue/issues или раздел поддержки на странице Neue в магазине, откуда вы его установили.
 
 Neue — независимый проект, не связанный с YouTube и Google и не одобренный ими.
