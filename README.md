@@ -19,7 +19,17 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 <a id="whats-new"></a>
 
-## What's new in 1.3.2
+## What's new in 1.3.3
+
+### 1.3.3: pop-up player and video cards
+
+- **Shorts no longer crowd the pop-up player's recommendations:** they stay hidden there, whatever the Shorts settings.
+- **Long descriptions no longer get cut off without a way to expand them,** in the pop-up and in fullscreen. The description's transcript button opens YouTube's timeline, chapters and transcript beside the pop-up player; search finds the words you need, and a click on a line plays the video from that time.
+- **Small video cards are no longer overwhelmed by full-size text and avatars:** titles, avatars, menus and time badges shrink with the cards when you fit more videos into a row.
+- **Shorts no longer lose their title and buttons in the pop-up player** after YouTube's changes. Shorts from a shelf open with them too, and the player's extra buttons no longer overlap the Shorts controls.
+- **YouTube's mini player no longer plays over the pop-up:** it pauses and hides while the pop-up is open, then returns in its place, paused, when you close it.
+- **F5 no longer sends the Shorts player out of place for a moment:** it stays where it belongs, and the title and buttons fade in as they arrive.
+- **The old extension icon is replaced:** Neue has a new icon.
 
 ### 1.3.2: pop-up player
 
@@ -96,7 +106,7 @@ Settings are in Chrome's side panel, next to YouTube, and apply at once in every
 
 ## Contents
 
-- [What's new in 1.3.2](#whats-new)
+- [What's new in 1.3.3](#whats-new)
 - [Fixed YouTube animations](#smooth)
 - [Header](#header)
 - [☰ menu](#menu)
