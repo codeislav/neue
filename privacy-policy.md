@@ -1,6 +1,6 @@
 # Neue — Privacy Policy
 
-*Effective November 9, 2026*
+*Effective November 13, 2026*
 
 [Русская версия ниже](#ru)
 
@@ -29,7 +29,7 @@ The extension keeps only what it needs to work, in your browser:
 
 The extension connects only to YouTube, the site you are already on:
 
-- When you open a video in the pop-up player, it loads that video's YouTube page, with your YouTube cookies, as opening the page yourself would. For a Short it loads the Short's page. This shows the video's channel, the Subscribe, like and save buttons with your own state, and the video's chapters. To show a video's end screen and info cards, it asks YouTube's player service for that video's data once more, also with your YouTube cookies. When you open its comments, YouTube's own comments panel loads them from YouTube, as on the video's page. When you open a Short's track, it asks YouTube for more Shorts with that track as you scroll through them, with your YouTube cookies, as YouTube's own page does.
+- When you open a video in the pop-up player, it loads that video's YouTube page, with your YouTube cookies, as opening the page yourself would. For a Short it loads the Short's page. This shows the video's channel, the Subscribe, like and save buttons with your own state, and the video's chapters. To show a video's end screen and info cards, it asks YouTube's player service for that video's data once more, also with your YouTube cookies. When you open its comments, YouTube's own comments panel loads them from YouTube, as on the video's page. When you open a Short's track, it asks YouTube for more Shorts with that track as you scroll through them, with your YouTube cookies, as YouTube's own page does. When you open a video's side panel in the pop-up player (timeline, chapters or transcript), it asks YouTube for its content with a POST request to www.youtube.com/youtubei/v1/get_panel, using YouTube's own client context and your YouTube cookies, as YouTube's own page does.
 - When the pointer rests on a video on the home page or a channel page, or when you open it, it asks YouTube's oEmbed service (youtube.com/oembed) for the video's size, so that the pop-up player opens in the video's shape.
 - To find a channel's welcome video, it may load the channel's YouTube page without your cookies.
 - When you open a stream's chat in the pop-up player, it loads YouTube's own live chat page, with your YouTube cookies, as the watch page does.
@@ -72,7 +72,7 @@ Neue is an independent project and is not affiliated with or endorsed by YouTube
 
 # Neue — Политика конфиденциальности
 
-*Действует с 9 ноября 2026 года*
+*Действует с 13 ноября 2026 года*
 
 Neue — расширение для браузера, которое меняет интерфейс сайта YouTube (www.youtube.com) в вашем браузере. Оно не собирает, не продаёт и не передаёт ваши персональные данные. У него нет своих серверов, аналитики, рекламы и слежки.
 
@@ -99,7 +99,7 @@ Neue — расширение для браузера, которое меняе
 
 Расширение обращается только к YouTube — сайту, на котором вы и так находитесь:
 
-- Когда вы открываете видео во всплывающем плеере, оно загружает страницу этого видео на YouTube с вашими куками YouTube — так же, как если бы вы открыли её сами. Для Shorts оно загружает страницу этого Shorts. Так под видео появляются канал, кнопки «Подписаться», лайка и «Сохранить» в вашем состоянии, а на шкале — главы видео. Чтобы показать конечную заставку и подсказки видео, оно ещё раз запрашивает данные этого видео у сервиса плеера YouTube, тоже с вашими куками YouTube. Когда вы открываете комментарии, их загружает с YouTube собственная панель комментариев YouTube — так же, как на странице видео. Когда вы открываете трек Shorts, оно по мере прокрутки запрашивает у YouTube другие Shorts с этим треком, с вашими куками YouTube, — так же, как собственная страница YouTube.
+- Когда вы открываете видео во всплывающем плеере, оно загружает страницу этого видео на YouTube с вашими куками YouTube — так же, как если бы вы открыли её сами. Для Shorts оно загружает страницу этого Shorts. Так под видео появляются канал, кнопки «Подписаться», лайка и «Сохранить» в вашем состоянии, а на шкале — главы видео. Чтобы показать конечную заставку и подсказки видео, оно ещё раз запрашивает данные этого видео у сервиса плеера YouTube, тоже с вашими куками YouTube. Когда вы открываете комментарии, их загружает с YouTube собственная панель комментариев YouTube — так же, как на странице видео. Когда вы открываете трек Shorts, оно по мере прокрутки запрашивает у YouTube другие Shorts с этим треком, с вашими куками YouTube, — так же, как собственная страница YouTube. Когда вы открываете боковую панель видео во всплывающем плеере («Хронология», «Эпизоды» или «Расшифровка видео»), оно запрашивает её содержимое у YouTube POST-запросом к www.youtube.com/youtubei/v1/get_panel, с собственным клиентским контекстом YouTube и вашими куками YouTube, — так же, как собственная страница YouTube.
 - Когда курсор задерживается на видео на главной или на странице канала или вы его открываете, оно спрашивает у сервиса oEmbed YouTube (youtube.com/oembed) размер видео, чтобы всплывающий плеер открылся в форме ролика.
 - Чтобы найти приветственное видео канала, оно может загрузить страницу канала на YouTube без ваших кук.
 - Когда вы открываете чат трансляции во всплывающем плеере, оно загружает страницу чата самого YouTube с вашими куками YouTube — так же, как страница видео.
